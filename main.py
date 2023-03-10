@@ -14,4 +14,14 @@ for i in itertools.cycle("ASHORI2002"):
     else:
         print(i)
     numbers -= 1
+#___________________________________________________________________
 
+X = itertools.repeat("ASHORI2002" , 5)
+print(list(X))
+
+#___________________________________________________________________
+def test():
+    from itertools import product
+    print(list(product([1,2],repeat=2)))
+
+test()
