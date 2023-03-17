@@ -25,3 +25,9 @@ def test():
     print(list(product([1,2],repeat=2)))
 
 test()
+#___________________________________________________________________
+def test1():
+    from itertools import permutations
+    print(list(permutations("abc")))
+
+test1()
